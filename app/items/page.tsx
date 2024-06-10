@@ -1,4 +1,4 @@
-//https://api.mercadolibre.com/sites/MLA/search?q=:query
+import Link from "next/link";
 
 export default async function ItemsPage({searchParams}: {searchParams: {search: string}}) {
     const {results} = await fetch(
@@ -20,13 +20,13 @@ export default async function ItemsPage({searchParams}: {searchParams: {search: 
         <section>
             <article className="grid gap-4">
                 {results.map(item => (
-                    <div key={item.id} className="flex gap-4">
+                    <Link href={`/items/${item.id}`} key={item.id} className="flex gap-4">
                         <img src={item.thumbnail} alt={item.title} />
                         <div>
                             <p className="font-bold text-xl">{Number(item.price).toLocaleString('es-AR', {style: 'currency', currency: item.currency_id})}</p>
                             <p>{item.title}</p>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </article>
         </section>
