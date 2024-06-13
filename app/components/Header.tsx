@@ -9,7 +9,7 @@ const Header = () => {
             <div className='mx-auto px-4 py-2 sm:max-w-full sm:py-2 md:max-w-full md:px-4 lg:max-w-[1248px] lg:px-6'>
                 <div className='relative flex flex-col'>
                     <div className='relative flex items-center justify-between'>
-                        <div className='flex w-full items-center gap-2 md:gap-7 lg:gap-14'>
+                        <div className='flex w-full items-center gap-6'>
                             <Link href='/' aria-label='Mercado Libre' title='Mercado Libre'>
                                 <Image
                                 src='/mercadolibre.com.svg'
