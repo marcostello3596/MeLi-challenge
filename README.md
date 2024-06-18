@@ -23,3 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ```bash
 npm test
 ```
+
+# Technical Observations
+
+In the design of the search results you can see the place of origin of the product (Capital Federal, Mendoza, etc). However, the API document does not include the "city" field.
