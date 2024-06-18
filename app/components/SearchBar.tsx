@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import "../globals.css";
 
-const Header = () => {
+const SearchBar = () => {
     return (
         <header className='bg-primary flex'>
             <div className='mx-auto px-4 py-2 sm:max-w-full sm:py-2 md:max-w-full md:px-4 lg:max-w-[1248px] lg:px-6'>
@@ -47,4 +47,4 @@ const Header = () => {
         </header>
     );
 }
-export { Header };
+export { SearchBar };
