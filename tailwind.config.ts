@@ -29,6 +29,10 @@ const config: Config = {
       width: {
         '680px': '680px',
       },
+      spacing: {
+        '16px': '16px',
+        '32px': '32px',
+      },
       fontFamily: {
         proxima: ['proxima', 'sans-serif'],
       },
