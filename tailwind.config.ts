@@ -15,7 +15,27 @@ const config: Config = {
         darkGray: '#666666',
         mediumGray: '#999999',
         lightGray: '#EEEEEE'
-      }
+      },
+      fontSize: {
+        '12px': '12px',
+        '14px': '14px',
+        '16px': '16px',
+        '18px': '18px',
+        '24px': '24px',
+        '28px': '28px',
+        '36px': '36px',
+        '46px': '46px'
+      },
+      width: {
+        '680px': '680px',
+      },
+      spacing: {
+        '16px': '16px',
+        '32px': '32px',
+      },
+      fontFamily: {
+        proxima: ['proxima', 'sans-serif'],
+      },
     },
   },
   plugins: [],

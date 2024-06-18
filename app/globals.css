@@ -2,8 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* styles/globals.css */
+@font-face {
+  font-family: 'proxima';
+  src: url('../public/fonts/proxima-nova-light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima';
+  src: url('../public/fonts/proxima-nova-medium.ttf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima';
+  src: url('../public/fonts/proxima-nova-regular.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima';
+  src: url('../public/fonts/proxima-nova-semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+body {
+  background-color: #EDEDED;
+  color: black;
+}
+.header, .main-content {
+  font-family: 'proxima', sans-serif;
+}
+input {
+  font-family: inherit;
+}
 :root {
-background-color: Canvas;
 color: CanvasText;
 color-scheme: light dark;
 }

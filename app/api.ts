@@ -11,6 +11,7 @@ const api = {
                         thumbnail: string;
                         price: number;
                         currency_id: string;
+                        condition: string;
                     }>,
             );
 
